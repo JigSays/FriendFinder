@@ -125,3 +125,5 @@ var friends = [
         "5"
     ]}
 ];
+
+module.exports = friends;

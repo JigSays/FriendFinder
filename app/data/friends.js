@@ -1,27 +1,8 @@
 
-
-
-var newFriend = {
-    name: $("#name").val(),
-    photo: $("#photo").val(),
-    scores: [
-      $("#q1").val(),
-      $("#q2").val(),
-      $("#q3").val(),
-      $("#q4").val(),
-      $("#q5").val(),
-      $("#q6").val(),
-      $("#q7").val(),
-      $("#q8").val(),
-      $("#q9").val(),
-      $("#q10").val()
-    ]
-  };
-
 var friends = [
     {
     name: "Tom",
-    photo: "/photos/myspace-tom.jpg",
+    photo: "https://www.hellomagazine.com/imagenes/travel/2018012645793/tom-myspace-founder-travel-photographer/0-230-700/myspace-tom-now-t.jpg",
     scores: [
         "2",
         "3",
@@ -36,7 +17,7 @@ var friends = [
     ]},
     {   
     name: "Lisa Kolinski",
-    photo: "img",
+    photo: "https://smartpandalabs.com/wp-content/uploads/2014/10/edwards.jpg",
     scores: [
         "2",
         "2",
@@ -51,7 +32,7 @@ var friends = [
     ]},
     {
     name: "Jenny Payne",
-    photo: "img",
+    photo: "https://store.blr.com/media/catalog/product/b/a/bame_jennifer_ky.jpg",
     scores: [
         "1",
         "1",
@@ -66,7 +47,7 @@ var friends = [
     ]},
     {
     name: "Ali Gitlow",
-    photo: "img",
+    photo: "https://images2.the-dots.com/v1/p-134404.jpg?p=social",
     scores: [
         "3",
         "1",
@@ -81,7 +62,7 @@ var friends = [
     ]},
 {
     name: "Nikki Edwards",
-    photo: "img",
+    photo: "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/17332930_1510810762276953_7765551297826127872_n.jpg?ig_cache_key=MTQ3MzU2ODIyMTgzMTg2NjE1NA%3D%3D.2.c",
     scores: [
         "1",
         "2",
@@ -96,7 +77,7 @@ var friends = [
     ]},
     {
     name: "Marcus Figerola",
-    photo: "img",
+    photo: "https://kielarowski.files.wordpress.com/2015/07/trump-hair.jpg",
     scores: [
         "5",
         "5",
@@ -111,7 +92,7 @@ var friends = [
     ]},
     {
     name: "Robby Hunter",
-    photo: "img",
+    photo: "https://pbs.twimg.com/profile_images/820716324901031936/y9Nys8KL_400x400.jpg",
     scores: [
         "1",
         "1",

@@ -28,8 +28,8 @@
     <h4>Name (Required)</h4>
     <input type="text" id="name" class="form-control" required>
 
-    <h4>Link to Photo Image (Required)</h4>
-    <input type="text" id="photo" class="form-control" required>
+    <h4>Link to Photo Image (Please Provide a Link)</h4>
+    <input type="text" id="photo" class="form-control">
 
     <hr>
 
@@ -216,7 +216,7 @@
       function validateForm() {
         var isValid = true;
         $(".form-control").each(function() {
-          if ($(this).val() === "") {
+          if ($("#name").val() === "") {
             isValid = false;
           }
         });
@@ -235,7 +235,7 @@
         // Create an object for the user"s data
         var userData = {
           name: $("#name").val(),
-          photo: $("#photo").val(),
+          // photo: $("#photo").val(),
           scores: [
             $("#q1").val(),
             $("#q2").val(),
@@ -262,7 +262,7 @@
 
         });
       } else {
-        alert("Please fill out all fields before submitting!");
+        alert("Play Nice with Others or NO FRIENDS FOR YOU!!!!!");
       }
     });
   </script>
